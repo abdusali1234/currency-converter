@@ -10,7 +10,7 @@ import urllib.request
 # desired currency
 
 if len(sys.argv) !=4:
-    print("""Incorrect NO. Arguments. Please enter the following:\#          ./currency_rates.py lookup_price lookup_currency base_currency""")
+    print("Incorrect NO. Arguments. Please enter the following:\n \\         ./currency_rates.py lookup_price lookup_currency base_currency")
     sys.exit()
 
 lookup_price = sys.argv[1]
